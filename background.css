@@ -1,0 +1,71 @@
+body {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  div
+  {
+    background-color: #00ff88;
+    background-image: url("background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    background-color: #020202;
+    padding: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  label {
+    margin: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .ticket {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .ticket h2 {
+    margin: 0;
+  }
+  .ticket p {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  .ticket ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .ticket li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .ticket li span {
+    font-weight: normal;
+  }
